@@ -5,11 +5,11 @@
         padding: 0;
     }
     :root{
-        --Ambâr-Dourado: rgb(98, 58, 150);
-        --laranja-fluorescente: rgb(146, 89, 192);
-        --rosa-neon: rgb(164, 120, 209);
+        --Ambâr-Dourado: rgb(219, 204, 238);
+        --laranja-fluorescente: rgb(172, 36, 226);
+        --rosa-neon: rgb(106, 109, 230);
         --azul-violeta: rgb(116, 118, 194);
-        --cinza: rgb(193, 170, 235);
+        --cinza: rgb(143, 72, 184);
         --texto: "Geist Pixel", sans-serif;
         --titulo:  "Montenegrin Gothic One", serif;
     }
@@ -22,7 +22,11 @@
         display: flex;
         justify-content: space-around;
         color: var(--Ambâr-Dourado);
-        padding: 30px;
+        padding: 15px;
+    }
+    .logo{
+        width: 20%;
+        border-radius: 80%;
     }
     .Menu{
         display: flex;   
@@ -62,4 +66,12 @@
     .conteudo-texto{
         font-family: var(--texto);
         font-size: 14px;
+    }
+    footer{
+        background-color: var(--rosa-neon);
+        color: var(--Ambâr-Dourado);
+        font-family: var(--titulo) ;
+        font-size: 40px;
+        padding: 10px;
+        text-align:center;
     }
