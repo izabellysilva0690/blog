@@ -46,6 +46,29 @@
     .menu a:hover{
         color: var(--rosa-neon);
         transition: 1s;
+        
+    } 
+    .noticias{
+        margin:20px 150px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0,1fr));
+        gap: 20px;
+    }
+
+    .card{
+        border: 2px solid var(--rosa-neon);
+        padding: 20px;
+        text-align: center;
+    }
+
+
+    footer{
+        background-color: var(--rosa-neon);
+        color: var(--Ambâr-Dourado);
+        font-family: var(--titulo) ;
+        font-size: 40px;
+        padding: 10px;
+        text-align:center;
     }
     .img-capa{
         width: 2000px;
@@ -68,11 +91,5 @@
         font-family: var(--texto);
         font-size: 14px;
     }
-    footer{
-        background-color: var(--rosa-neon);
-        color: var(--Ambâr-Dourado);
-        font-family: var(--titulo) ;
-        font-size: 40px;
-        padding: 10px;
-        text-align:center;
-    }
+
+   
